@@ -1,0 +1,25 @@
+
+<div class="checkout" align="center" >
+  <div  class="offer" align="center">
+    <h2>Get 20% Discount</h2>
+    <h4>PROMOCODE</h4>
+    <h3 style="background-color: rgb(197, 157, 226);">BRAIN2POCKET</h3>
+  </div>
+    <h2>Checkout</h2>
+    <div *ngFor="let item of items">
+      <div style="display: flex;flex-direction: row;">
+        <img style="width: 50px; height: 50px;" [src]="item.imageUrl" alt="{{ item.name }}">
+        {{ item.name }} - {{ item.price | currency }}
+
+      </div>
+      <!-- <p> <img style="width: 50px; height: 50px;" [src]="item.imageUrl" alt="{{ item.name }}">{{ item.name }} - {{ item.price | currency }}</p> -->
+    </div>
+    <div class="coupon-section">
+      <label for="coupon">Coupon Code</label>
+      <input type="text" id="coupon" #couponCode>
+      <button (click)="applyCoupon(couponCode.value)">Apply Coupon</button>
+    </div>
+    <p class="total">Total: {{ getTotal() | currency }}</p>
+    <button class="submit-order" (click)="submitOrder()">Submit Order</button>
+  </div>
+  

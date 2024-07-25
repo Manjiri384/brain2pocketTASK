@@ -1,0 +1,20 @@
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+  gap: 10px;
+}
+.product-list button{
+  background-color: #6572d1;
+  color: aliceblue;
+  border: #ccc;
+  border-radius: 15px;
+  align-items:end;
+}
+.product-item{
+    flex: 1 1 calc(20% - 10px); /* 5 items per row with gaps */
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box; /* Ensures padding and border are included in the width */
+  text-align: center;
+  border-radius: 15px;
+}

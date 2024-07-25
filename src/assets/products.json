@@ -1,0 +1,132 @@
+[
+    {
+      "id": 1,
+      "name": "Sony Alpha ILCE-7CM2L",
+      "description": " Full-Frame Interchangeable Lens Mirrorless vlog Camera (Body + 28-60 mm Zoom Lens) | Made for Creators| 33.0 MP| Artificial Intelligence based Autofocus | 4K 60p Recording-Silver",
+      "price": 100,
+      "category": "Electronic",
+      "imageUrl": "assets/camera1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Canon",
+      "description": "Sony Alpha ILCE-7CM2L Full-Frame Interchangeable Lens Mirrorless vlog Camera (Body + 28-60 mm Zoom Lens) | Made for Creators| 33.0 MP| Artificial Intelligence based Autofocus | 4K 60p Recording-Silver",
+      "price": 150,
+      "category": "Electronic",
+      "imageUrl": "assets/camera2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Gopro",
+      "description": " Full-Frame Interchangeable Lens Mirrorless vlog Camera (Body + 28-60 mm Zoom Lens) | Made for Creators|Sony Alpha ILCE-7CM2L",
+      "price": 200,
+      "category": "Electronic",
+      "imageUrl": "assets/camera3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "vivo Y18e",
+      "description": " (Space Black, 4GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers | without Charger",
+      "price": 250,
+      "category": "Electronic",
+      "imageUrl": "assets/product6.jpg"
+    },
+    {
+      "id": 5,
+      "name": "boAt Rockerz 450 Bluetooth On Ear Headphones",
+      "description": "soundcore by Anker Q20i Wireless Bluetooth Over-Ear Headphones with Hybrid Active Noise Cancelling, 40h Playtime in ANC Mode, Hi-Res Audio, Deep Bass, Personalization via App (Black)",
+      "price": 250,
+      "category": "Electronic",
+      "imageUrl": "assets/product7.jpg"
+    },
+    {
+      "id": 6,
+      "name": "soundcore Anker Q20i Over-Ear Headphones",
+      "description": "soundcore by Anker Q20i Wireless Bluetooth Over-Ear Headphones with Hybrid Active Noise Cancelling, 40h Playtime in ANC Mode, Hi-Res Audio, Deep Bass, Personalization via App (Black)",
+      "price": 250,
+      "category": "Electronic",
+      "imageUrl": "assets/product8.jpg"
+    },
+    {
+      "id": 7,
+      "name": "boAt Rockerz 425 Bluetooth Wireless Over Ear Headphones",
+      "description": "soundcore by Anker Q20i Wireless Bluetooth Over-Ear Headphones with Hybrid Active Noise Cancelling, 40h Playtime in ANC Mode, Hi-Res Audio, Deep Bass, Personalization via App (Black)",
+      "price": 250,
+      "category": "Electronic",
+      "imageUrl": "assets/product9.jpg"
+    },
+    {
+      "id": 8,
+      "name": "ASUS 15s Laptop",
+      "description": "(AMD Ryzen 3 5300U / 8GB RAM/ 512 SSD/ 15.6 (39.6 cm) Display/ AMD Integrated Graphics/ Win 11/ Office)EQ2143AU",
+      "price": 250,
+      "category": "Electronic",
+      "imageUrl": "assets/laptop1.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Dell laptop",
+      "description": "Windows 11 Pro14 diagonal, FHD anti-glare display with AMD Radeon™ Graphics8 GB DDR4 RAM512 GB SSD",
+      "price": 250,
+      "category": "Electronic",
+      "imageUrl": "assets/delllaptop.jpg"
+    },
+    {
+      "id": 10,
+      "name": "HP ProBook",
+      "description": "AMD Ryzen™ 5 processor,Windows 11 Pro14 diagonal, FHD anti-glare display with AMD Radeon™ Graphics8 GB DDR4 RAM512 GB SSD Solid State Drive720p HD privacy camera, ",
+      "price": 250,
+      "category": "Electronic",
+      "imageUrl": "assets/hp-laptop.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Amazon Brand",
+      "description": " House & Shields Men's Solid Regular Fit Casual Shirt",
+      "price": 250,
+      "category": "Clothes",
+      "imageUrl": "assets/cloth1.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Puma",
+      "description": "Puma Men Regular Fit Tee",
+      "price": 250,
+      "category": "Clothes",
+      "imageUrl": "assets/clothe2.jpg"
+    },
+    {
+      "id": 13,
+      "name": "NEWPORT",
+      "description": " Men Black Graphic Print Cotton T-Shirt",
+      "price": 250,
+      "category": "Clothes",
+      "imageUrl": "assets/cloth3.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Amazon Brand",
+      "description": " House & Shields Men's Solid Regular Fit Casual Shirt",
+      "price": 250,
+      "category": "Clothes",
+      "imageUrl": "assets/cloth1.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Puma",
+      "description": "Puma Men Regular Fit Tee",
+      "price": 250,
+      "category": "Clothes",
+      "imageUrl": "assets/clothe2.jpg"
+    },
+    {
+      "id": 16,
+      "name": "NEWPORT",
+      "description": " Men Black Graphic Print Cotton T-Shirt",
+      "price": 250,
+      "category": "Clothes",
+      "imageUrl": "assets/cloth3.jpg"
+    }
+    
+  ]
+  

@@ -1,0 +1,109 @@
+/* src/app/components/checkout/checkout.component.css */
+.checkout {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.offer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('/assets/offer-card.jpg');
+  background-size: cover; 
+  background-position: center; 
+  width: 100%;
+  /* align-items: center;
+  align-content: center; */
+  /* margin-left: 50px; */
+ 
+}
+.checkout h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #111;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.checkout-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.checkout-item:last-child {
+  border-bottom: none;
+}
+
+.coupon-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px 0;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.coupon-section label {
+  margin-right: 10px;
+  font-weight: bold;
+  color: #111;
+}
+
+.coupon-section input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.coupon-section button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: #5f6ac0;
+  color: #fbf4f4;
+  border: 1px solid #5f2a91;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.coupon-section button:hover {
+  background-color: #f3a847;
+}
+
+.total {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+  margin: 20px 0;
+  color: #b12704;
+}
+
+.submit-order {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #5f6ac0;
+  color: #fbf4f4;
+  border: 1px solid #5f2a91;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.submit-order:hover {
+  background-color: #e2b33f;
+}

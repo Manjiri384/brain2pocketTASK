@@ -1,0 +1,36 @@
+<!-- <div class="filter">
+    <label for="category">Filter by Category:</label>
+    <select id="category" (change)="onCategoryChange($event)">
+      <option value="">All</option>
+      <option value="">Category</option>
+      <option *ngFor="let category of categories" [value]="category">{{ category }}</option>
+    </select>
+  </div> -->
+  <div>
+    <img style="width: 100%; border-radius: 10px;" src="assets/website banne.jpg">
+  </div>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Category</mat-label>
+    <mat-select [(value)]="selectedCategory" (selectionChange)="onCategoryChange($event)">
+      <mat-option>
+        <ngx-mat-select-search [formControl]="categoryFilterCtrl"></ngx-mat-select-search>
+      </mat-option>
+      <mat-option *ngFor="let category of filteredCategories" [value]="category">
+        {{ category }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+ 
+<div  class="product-list">
+    <div *ngFor="let product of datas" class="product-item">
+        <img style="width: 150px; height: 150px;" [src]="product.imageUrl" alt="{{ product.name }}">
+      <h2>{{ product.name }}</h2>
+      <p>{{ product.description }}</p>
+      <p>{{ product.price | currency }}</p>
+      <button (click)="addToCart(product)">Add to Cart</button>
+      <!-- <a [routerLink]="['/product', product.id]">View Details</a> -->
+    </div>
+  </div>
+  
